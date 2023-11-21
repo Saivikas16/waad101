@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #333; 
+    color: #eee; 
+  }
+  
+  .spacing1 {
+    padding: 50px;
+  }
+  
+  .container1 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #555; 
+    border-radius: 0.5rem;
+    background: #444; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #ddd; 
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #ccc;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  input[type="checkbox"] {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #555; 
+    background-color: #666; 
+    color: #eee;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    background-color: #ff7f50;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff6347;
+  }
+  
+  table {
+    margin-top: 2rem;
+    border-collapse: collapse;
+    width: 80%;
+    border: 1px solid #888; 
+    margin: 0 auto;
+    background-color: #555; 
+  }
+  
+  th,
+  td {
+    border: 1px solid #888; 
+    padding: 0.5rem;
+    text-align: left;
+    color: #eee;
+  }
+  
+  caption {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #ddd; 
+  }
+  
+  label:hover {
+    color: #ff6347;
+    cursor: pointer;
+  }
+  
+  input[type="text"]:hover,
+  input[type="email"]:hover,
+  input[type="password"]:hover,
+  input[type="date"]:hover,
+  input[type="checkbox"]:hover {
+    border-color: #ff6347;
+  }
+  
+  th,
+  td {
+    color: #eee; 
+    transition: background-color 0.3s ease;
+  }
+  
+  th:hover,
+  td:hover {
+    background-color: #777;
+    transition: background-color 0.3s ease;
+  }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="spacing">
+      <div class="container">
+        <h1>Registration Form</h1>
+        <form id="registrationForm">
+          <label>Name</label><input type="text" id="regName" name="name" required>
+          <label>Email</label><input type="email" id="regEmail" name="email" required>
+          <label>Password</label><input type="password" id="regPassword" name="password" required>
+          <label>Date of Birth</label><input type="date" id="regDob" name="dob" required>
+          <label for="regTerms">
+            <input type="checkbox" id="regTerms" name="terms" required>
+            I agree to the terms and conditions.
+          </label>
+          
+          <button type="submit">Submit</button>
+          <button type="button" id="clearTableBtn">Clear Table</button>
+        </form>
+      </div>
+    </div>
+
+    <table id="userDataTable">
+      <caption><h2>Entries</h2></caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Password</th>
+          <th>Dob</th>
+          <th>Accepted terms?</th>
+        </tr>
+      </thead>
+      <tbody id="userDataBody"></tbody>
+    </table>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
